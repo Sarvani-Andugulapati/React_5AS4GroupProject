@@ -12,7 +12,7 @@ const Home = () => {
 
     return (<>
         <Header search={search} />
-        <MovieList category={"movies-coming"} searchTerm={searchTerm} />
+        <MovieList category={"movies-coming"} searchTerm={searchTerm}/>
     </>)
 }
 
